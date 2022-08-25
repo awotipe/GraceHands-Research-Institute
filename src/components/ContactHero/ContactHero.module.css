@@ -27,8 +27,8 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    padding: 1rem;
     z-index: 1;
+    padding-left: 4.5rem;
 }
 
 .content p{

@@ -1,10 +1,12 @@
 .ContactForm{
     background:white;
-    width: 100%;
+    width: 90%;
     display: flex;
     justify-content:space-between;
-    padding: 4rem 3rem;
+    margin: auto;
+    padding-top: 4rem;
 }
+
 .ContactForm1{
  width: 30%;
 }
