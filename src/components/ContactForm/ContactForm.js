@@ -41,7 +41,7 @@ const ContactForm = () => {
         </div>
         <div className={Classes.address}>
           <h3>Phone Numbers</h3>
-          <p>+234 816 818 1969</p>
+          <p>+2348168181969</p>
         </div>
         <div className={Classes.address}>
           <h3>Website</h3>
