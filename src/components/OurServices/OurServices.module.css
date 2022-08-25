@@ -1,0 +1,36 @@
+.CoreValue {
+    width: 100%;
+    background:white;
+    padding: 2rem 3rem 1rem 3rem;
+}
+
+.CoreValueContainer{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap:1rem;
+}
+
+.CoreValue h2{
+    margin: 2rem auto;
+    justify-content: center;
+    text-align: center;
+    color: #1E1E1E;
+}
+
+.CoreValue p{
+    margin: auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 6rem;
+}
+
+@media (max-width: 768px){
+    .CoreValueContainer{
+        
+        grid-template-columns: 1fr;
+        
+        
+    }
+    
+    
+}

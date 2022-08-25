@@ -1,0 +1,148 @@
+.hero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.slick-slider{
+    height: 100vh;
+  }
+  
+  .slick-dots
+  {
+      position: absolute;
+      top: 90%;
+      z-index: 5;
+  }
+  
+.overlay{
+    background-color: rgba(0,0,0,0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.heroimg{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-1;
+}
+.content{
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 4.5rem;
+}
+.content p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:70% ;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.content2{
+    position: absolute;
+    top:0;
+    height: 100vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    padding-left: 4.5rem;
+}
+.content2 p{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width:70% ;
+    font-size: 1.2rem;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+button{
+    padding:.5rem;
+    color: #fff;
+    cursor: pointer;
+    width: 234px;
+    height: 55px;
+    left: 80px;
+    top: 708px;
+    background: #227439;
+    box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    display: block;
+    font-size: 1.2rem;
+    border: none;
+  }
+
+button:hover {
+    background:blue;
+    border: none;
+}
+
+
+
+@media screen and (max-width: 968px){
+    .content2{
+        width:90% ;
+        padding-top: 4rem;
+    }
+    
+    .content {
+        width:90% ;
+        padding-top: 4rem;  
+    }
+
+    .content button{
+        margin-left:0rem;
+        font-size: 1rem;
+        width: 204px;
+      }
+
+      .content2 button{
+        margin-left:0rem;
+        font-size: 1rem;
+        width: 204px;
+      }
+}
+
+@media screen and  (max-width: 425px){
+    .content{
+        width: 100% ;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        padding-left: 0rem;
+        padding-top: 4rem;
+    }
+
+    .content2{
+        width: 100% ;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        padding-left: 0rem;
+        padding-top: 4rem;
+    }
+
+}
+
+
+
+
+
+
+

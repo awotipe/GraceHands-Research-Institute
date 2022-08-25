@@ -1,0 +1,49 @@
+.Container{
+    width: 100%;
+    margin-bottom: 80px;
+    overflow: hidden;
+}
+
+.ServiceHero{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    
+}
+.ServiceHero img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    z-index:-1;
+}
+.content{
+    position: absolute;
+    top:8%;
+    height: 100vh;
+    width: 100%;
+    padding: 14rem 0 0 2rem;
+    z-index: 1;
+}
+.content p{
+     margin-top:1rem;
+}
+
+@media screen and (max-width: 425px){
+    .Container{
+        padding-top: 70px;
+    }
+
+    .content{
+        padding: 19rem 0 0 2rem;
+    }
+
+}
