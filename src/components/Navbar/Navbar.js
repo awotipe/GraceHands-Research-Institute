@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Navbar.module.css";
-import Logo from "../../asset/Logo.svg";
+import Logo from "../../asset/GraceHandLogo.svg";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
