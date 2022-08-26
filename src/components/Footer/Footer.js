@@ -1,7 +1,7 @@
 import React from "react";
 import classes from "./Footer.module.css";
 import Logo from "../../asset/logo-white.svg";
-import Handle1 from "../../asset/facebook.svg";
+// import Handle1 from "../../asset/facebook.svg";
 import Handle2 from "../../asset/instagram.svg";
 import Location from "../../asset/location-footer.svg";
 import Email from "../../asset/email-footer.svg";
@@ -24,7 +24,7 @@ const Footer = (props) => {
               undergraduates and post-graduate students and major companies
             </p>
             <div className={classes.address}>
-              <img src={Handle1} alt="/" className={classes.social} />
+              {/* <img src={Handle1} alt="/" className={classes.social} /> */}
               <img src={Handle2} alt="/" className={classes.social1} />
             </div>
           </div>
