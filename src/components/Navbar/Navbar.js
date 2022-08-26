@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import classes from "./Navbar.module.css";
-// import Logo from "../../asset/Logo.svg";
+import Logo from "../../asset/Logo.svg";
 import { HiOutlineMenuAlt4 } from "react-icons/hi";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
@@ -18,7 +18,7 @@ const Navbar = () => {
     <div className={Classes.navbar}>
       <div className={classes.logo}>
         <Link to="/">
-          {/* <img src={Logo} alt="/" /> */}
+          <img src={Logo} alt="/" />
         </Link>
       </div>
       <ul className={Classes.navMenu}>
