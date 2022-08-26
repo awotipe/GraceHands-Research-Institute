@@ -30,7 +30,7 @@
 
 .text>h2{
     padding-bottom: 1.2rem;
-    color: black;
+    color: var(--primary);
 }
 
 .text>p{

@@ -1,0 +1,45 @@
+.contactSocials{
+    background:white;
+    width: 90%;
+    display: flex;
+    justify-content:space-between;
+    margin: auto;
+    padding-top: 4rem;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px){
+
+    .contactSocials p{
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width: 655px){
+    .contactSocials p{
+        font-size: .8rem;
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .contactSocials{
+        display: block;
+        padding-top: 2rem;
+        gap: 2rem;
+    }
+
+
+    .contactSocials p{
+        font-size: 1rem;
+    }
+
+    .socialAddress{
+        padding-bottom: 2rem;;
+    }
+
+    .socialFB{
+        padding-bottom: 2rem;;
+    }
+}
