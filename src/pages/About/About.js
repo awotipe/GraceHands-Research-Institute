@@ -3,7 +3,9 @@ import classes from "./About.module.css";
 import Content from "../../asset/content.svg";
 import Audience from "../../asset/audience.svg";
 import Video from "../../asset/video.svg";
-import Vidimage from "../../asset/vidImage.svg";
+import Video1 from "../../asset/Excel-training.mp4";
+import Video2 from "../../asset/about-video.mp4";
+import Video3 from "../../asset/research-training.mp4";
 import AboutHero from "../../components/AboutHero/AboutHero";
 
 const About = () => {
@@ -41,12 +43,12 @@ const About = () => {
         </div>
       <div className={classes.videoContainer}>
         <div className={classes.title}>
-          <h3>Video</h3>
+          <h3>Videos</h3>
         </div>
         <div className={classes.vidImage}>
-         <div><img src={Vidimage} alt="/" /></div>
-         <div><img src={Vidimage} alt="/" /></div>
-         <div><img src={Vidimage} alt="/" /></div>
+        <video controls autostart src={Video2} type="video/mp4" />
+        <video controls autostart src={Video1} type="video/mp4" />
+        <video controls autostart src={Video3} type="video/mp4" />
         </div>
       </div>
       </div>

@@ -1,6 +1,8 @@
 import React from "react";
 import classes from "./ContactHero.module.css";
 import Logo from "../../asset/contact-hero.svg";
+// import Email from "../../asset/contact-email.svg";
+// import Whatsapp from "../../asset/contact-whatsapp.svg";
 import { Link } from "react-router-dom";
 
 const ContactHero = () => {
@@ -16,11 +18,17 @@ const ContactHero = () => {
         </p>
         <div className={classes.content1}>
           <Link to="/training">
-            <button>Send Us Email</button>
+            <button className={classes.btn}>
+              {/* <img src={Email} alt="/" /> */}
+              Send Us Email
+            </button>
           </Link>
           <div className={classes.content2}>
             <a href="https://wa.link/iy94j6">
-              <button>Whatsapp</button>
+              <button className={classes.btn}>
+                {/* <img src={Whatsapp} alt="/" /> */}
+                Whatsapp
+              </button>
             </a>
           </div>
         </div>

@@ -46,6 +46,13 @@
     gap: 2rem;
 }
 
+.btn>img{
+    margin: auto;
+}
+
+
+
+
 .content2 button{
     color: var(--primary);
     background: #fff;

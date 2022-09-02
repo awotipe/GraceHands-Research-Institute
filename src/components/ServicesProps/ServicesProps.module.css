@@ -33,23 +33,40 @@
 .Corevalueimg1:hover h3{
     color: #fff;
 }
+
 .Corevalueimg1 p{
-    color:  #B3B3B3;
+    color:  black;
     margin: 0 auto;
     width: 60%;
     line-height: 1rem ;
     padding-top: 1rem;
     
 }
+
+.Corevalueimg1:hover p{
+    color: #fff;
+}
+
+@media (max-width: 768px){
+    
+    .Corevalueimg1 img{
+        width: 30%;
+        
+    }
+    
+    
+}
+
 @media (max-width: 580px){
     
     .Corevalueimg1 p{
-        color:  #B3B3B3;
+        color:  black;
         margin: 0 auto;
         width: 90%;
         line-height:30px ;
         
     }
+    
     
 }
 

@@ -17,7 +17,7 @@
 }
 
 .text p{
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2rem;
 }
 
@@ -39,7 +39,7 @@
 .title h3{
     font-size: 1.5rem;
     padding-bottom: 2rem;
-    color: black;
+    color: var(--primary);
 }
 
 .vidImage{
@@ -47,24 +47,41 @@
     justify-content: space-between;
 }
 
+.vidImage Video{
+    width: 30%;
+}
+
 
 @media screen and (max-width: 1024px){
-    .vidImage img{
-        width: 90%;
+    .vidImage{
+        display: flex;
+        justify-content: space-between;
     }
-
+    
+    .vidImage Video{
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 768px){
-    .vidImage img{
-        width: 90%;
+    .vidImage{
+        display: block;
+        padding-bottom: 2rem;
+    }
+    
+    .vidImage Video{
+        width: 100%;
+        gap: 2rem;
     }
 
     .part2{
-        display: block;
-        flex-direction: row;
+        display: flex;
         justify-content: space-between;
         gap: 2rem;
+    }
+
+    .part2 p{
+        font-size: .9rem;
     }
 }
 
@@ -78,6 +95,9 @@
 
     .vidImage{
         display: block;
-        flex-direction: row;
+    }
+    
+    .vidImage Video{
+        width: 100%;
     }
 }

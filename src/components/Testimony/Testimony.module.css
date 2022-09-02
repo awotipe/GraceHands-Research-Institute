@@ -154,7 +154,7 @@
 }
 
 .innerCard2>p {
-    font-size: .9rem;
+    font-size: .8rem;
     margin: auto;
     width: 90%;
     padding-top: .5rem;
@@ -251,31 +251,31 @@
 
 .innerTime>p{
     font-size: .5rem;
-    padding-top: 1.3rem;
+    padding-top: .9rem;
     margin-left: 13rem;
 }
 
 .innerTime2>p{
     font-size: .5rem;
-    padding-top: 5rem;
+    padding-top: 4.6rem;
     margin-left: 13rem;
 }
 
 .innerTime3>p{
     font-size: .5rem;
-    padding-top: 1.3rem;
+    padding-top: .9rem;
     margin-left: 13rem;
 }
 
 .innerTime4>p{
     font-size: .5rem;
-    padding-top: 5rem;
+    padding-top: 4.5rem;
     margin-left: 14rem;
 }
 
 .innerTime5>p{
     font-size: .5rem;
-    padding-top: 4.8rem;
+    padding-top: 4.5rem;
     margin-left: 14rem;
     margin-top: -.6rem;
 
@@ -283,7 +283,7 @@
 
 .innerTime6>p{
     font-size: .5rem;
-    padding-top: 8rem;
+    padding-top: 7.5rem;
     margin-left: 15.5rem;
 }
 
@@ -566,7 +566,7 @@
     }
     
     .innerCard7>p {
-        font-size: .7rem;
+        font-size: .6rem;
         width: 80%;
     }
 
@@ -631,60 +631,61 @@
     
     .innerTime>p{
         font-size: .5rem;
-        padding-top: 2rem;
+        padding-top: 1.5rem;
         margin-left: 10rem;
     }
     
     .innerTime2>p{
         font-size: .5rem;
-        padding-top: 5.5rem;
+        padding-top: 4.5rem;
         margin-left: 10rem;
     }
     
     .innerTime3>p{
         font-size: .5rem;
-        padding-top: 2rem;
+        padding-top: 1rem;
         margin-left: 10rem;
     }
     
     .innerTime4>p{
         font-size: .5rem;
-        padding-top: 5.5rem;
+        padding-top: 5rem;
         margin-left: 9rem;
     }
     
     .innerTime5>p{
         font-size: .5rem;
-        padding-top: 5rem;
+        padding-top: 4.5rem;
         margin-left: 9.2rem;
     
     }
     
     .innerTime6>p{
         font-size: .5rem;
-        padding-top: 4.5rem;
+        padding-top: 3.5rem;
         margin-left: 10rem;
     }
     
     .innerTime7>p{
         font-size: .5rem;
-        padding-top: .5rem;
-        margin-left: 6.5rem;
+        padding-top: -.5rem;
+        margin-left: 7rem;
     }
 }
 
 
 @media screen and (max-width: 425px) {
     .topFlex{
-        padding-top: 0rem;
+        padding-top: -2rem;
         width: 90%;
     }
     
     .cardTop{
         width: 220px;
-     
+        height: 98px;
+        padding-top: -2rem;
     }
-    
+
     .card {
         width: 220px;
         height: 350px;
@@ -726,16 +727,11 @@
     
 
     .text2 h3{
-        font-size: .7rem;
+        font-size: .6rem;
     }
 
     .text2 p{
-        font-size: .5rem;
-    }
-    
-    .topFlex{
-        padding-top: 2rem;
-    
+        font-size: .4rem;
     }
 
     .image1>img{
@@ -754,31 +750,31 @@
     
     .innerTime>p{
         font-size: .5rem;
-        margin-top: -1rem;
+        margin-top: .5rem;
         margin-left: 8rem;
     }
     
     .innerTime2>p{
         font-size: .5rem;
-        padding-top: 4rem;
+        padding-top: 5rem;
         margin-left: 8rem;
     }
     
     .innerTime3>p{
         font-size: .5rem;
-        margin-top: -.7rem;
+        margin-top: 0rem;
         margin-left: 8rem;
     }
     
     .innerTime4>p{
         font-size: .5rem;
-        padding-top: 4rem;
+        padding-top: 5rem;
         margin-left: 7.5rem;
     }
     
     .innerTime5>p{
         font-size: .5rem;
-        padding-top: 4.5rem;
+        padding-top: 5rem;
         margin-left: 7.5rem;
     
     }
@@ -793,5 +789,33 @@
         font-size: .5rem;
         padding-top: .5rem;
         margin-left: 6.5rem;
+    }
+
+    .innerCard>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard2>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard3>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard4>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard5>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard6>p {
+        font-size: .6rem;
+    }
+    
+    .innerCard7>p {
+        font-size: .5rem;
     }
 }
