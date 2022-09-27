@@ -15,7 +15,7 @@ const AboutUs = () => {
         </div>
         <div className={classes.text}>
           <h2>About Us</h2>
-          <p>
+          <p >
             We are an institute driven by the passion to affect lives in the
             world of data analytics and research. We conduct training
             specifically in these areas, we analyze data for undergraduates and

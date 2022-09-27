@@ -42,7 +42,7 @@ li{
     color: var(--primary);
 }
 li :hover{
-    color: black;
+    color: var(--secondary);
     font-weight: bold;
 }
 
@@ -100,7 +100,7 @@ button{
     .active li{
         padding:1.2rem 1rem;
         margin:0 1rem;
-        border-bottom:1px solid blue;
+        border-bottom:1px solid rgb(10, 10, 56);
     }
 
     .mobileMenuBottom{

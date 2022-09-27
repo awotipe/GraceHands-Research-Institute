@@ -7,7 +7,7 @@ import ServicesProps from "../ServicesProps/ServicesProps";
 
 const OurServices = () => {
   return (
-    <div className={classes.CoreValue}>
+    <div className={classes.services}>
       <div>
         <h2>Our Services</h2>
         <p>
@@ -15,7 +15,7 @@ const OurServices = () => {
           will learn the secrets to life success and becoming an expert
         </p>
       </div>
-      <div className={classes.CoreValueContainer}>
+      <div className={classes.servicesContainer}>
         <ServicesProps
           bgImg={Logo}
           header="Research"

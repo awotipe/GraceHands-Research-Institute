@@ -28,7 +28,8 @@ const TrainingProps = () => {
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="excel"
         />
         <TrainingHome
           bgImg={Analysis}
@@ -39,7 +40,8 @@ const TrainingProps = () => {
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="SPSS"
         />
         <TrainingHome
           bgImg={Research}
@@ -50,12 +52,13 @@ const TrainingProps = () => {
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="research"
         />
        
       </div>
       <div className={classes.viewAll}>
-        <Link to="training">
+        <Link to="trainingS">
           <button>View All Trainings</button>
         </Link>
       </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import classes from "./TrainingHome.module.css";
+import { Link } from "react-router-dom";
 
 const TrainingHome = ({
   bgImg,
@@ -10,7 +11,8 @@ const TrainingHome = ({
   lesson,
   dollar,
   amount,
-  buy,
+  learn,
+  where
 }) => {
   return (
     <div className={classes.servicesimg1}>
@@ -35,7 +37,9 @@ const TrainingHome = ({
               {dollar}
               <span>{amount}</span>
             </h3>
-            <button>{buy}</button>
+            <Link to={where}>
+            <button>{learn}</button>
+            </Link>
           </div>
         </div>
       </div>

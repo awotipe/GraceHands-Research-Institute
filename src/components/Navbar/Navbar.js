@@ -6,7 +6,6 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-import Classes from "./Navbar.module.css";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -15,43 +14,40 @@ const Navbar = () => {
   
 
   return (
-    <div className={Classes.navbar}>
+    <div className={classes.navbar}>
       <div className={classes.logo}>
         <Link to="/">
           <img src={Logo} alt="/" />
         </Link>
       </div>
-      <ul className={Classes.navMenu}>
+      <ul className={classes.navMenu}>
         <li>
-          <Link to="/" className={Classes.navlink}>
+          <Link to="/" className={classes.navlink}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" className={Classes.navlink}>
+          <Link to="/about" className={classes.navlink}>
             About Us
           </Link>
         </li>
-        {/* <li>
-            Partnership
-        </li> */}
         <li>
-          <Link to="/training" className={Classes.navlink}>
-            Training
+          <Link to="/trainings" className={classes.navlink}>
+            Trainings
           </Link>
         </li>
         <li>
-          <Link to="/contact" className={Classes.navlink}>
+          <Link to="/contact" className={classes.navlink}>
             Contact
           </Link>
         </li>
       </ul>
-      <div className={Classes.navIcons}>
-        <FaFacebook className={Classes.icon} />
-        <FaInstagram className={Classes.icon} />
-        <FaTwitter className={Classes.icon} />
+      <div className={classes.navIcons}>
+        <FaFacebook className={classes.icon} />
+        <FaInstagram className={classes.icon} />
+        <FaTwitter className={classes.icon} />
       </div>
-      <div className={Classes.hamburger} onClick={handleNav}>
+      <div className={classes.hamburger} onClick={handleNav}>
         {!nav ? (
           <HiOutlineMenuAlt4 className={classes.Icons} />
         ) : (
@@ -59,34 +55,31 @@ const Navbar = () => {
         )}
        
       </div>
-      <div className={nav ? Classes.active : Classes.mobileMenu}>
-        <ul className={Classes.mobileNav}>
+      <div className={nav ? classes.active : classes.mobileMenu}>
+        <ul className={classes.mobileNav}>
           <li>
-            <Link to="/" className={Classes.navlink}>
+            <Link to="/" className={classes.navlink}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className={Classes.navlink}>
+            <Link to="/about" className={classes.navlink}>
               About Us
             </Link>
           </li>
-          {/* <li>
-              Partnership
-          </li> */}
           <li>
-            <Link to="/services" className={Classes.navlink}>
-              Training
+            <Link to="/trainings" className={classes.navlink}>
+              Trainings
             </Link>
           </li>
           <li>
-            <Link to="/contact" className={Classes.navlink}>
+            <Link to="/contact" className={classes.navlink}>
               Contact
             </Link>
           </li>
         </ul>
-        <div className={Classes.mobileMenuBottom}>
-          <div className={Classes.menuIcons}>
+        <div className={classes.mobileMenuBottom}>
+          <div className={classes.menuIcons}>
             <a href="https://wa.link/iy94j6">
             <button>Click to chat on whatsapp</button>
             </a>

@@ -1,23 +1,23 @@
-.CoreValue {
+.services {
     width: 100%;
     background:white;
     padding: 2rem 3rem 1rem 3rem;
 }
 
-.CoreValueContainer{
+.servicesContainer{
     display:grid;
     grid-template-columns: repeat(3,1fr);
     grid-gap:1rem;
 }
 
-.CoreValue h2{
-    margin: 2rem auto;
+.services h2{
+    margin: 0 auto 1rem;
     justify-content: center;
     text-align: center;
     color: var(--primary);
 }
 
-.CoreValue p{
+.services p{
     margin: auto;
     justify-content: center;
     text-align: center;
@@ -26,13 +26,18 @@
     width: 60%;
 }
 
-@media (max-width: 768px){
-    .CoreValueContainer{
+@media screen and (max-width: 768px){
+    .servicesContainer{
         
         grid-template-columns: 1fr;
         
         
     }
     
-    
+}
+
+@media screen and (max-width: 425px){
+    .services p{
+        width: 100%;
+    }
 }

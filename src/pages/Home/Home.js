@@ -4,6 +4,8 @@ import AboutUs from "../../components/AboutUs/AboutUs"
 import OurServices from "../../components/OurServices/OurServices"
 import Training from "../../components/TrainingProps/TrainingProps"
 import Count from "../../components/Count/Count"
+import Certificate from "../../components/Certificate/Certificate";
+import Testimony from "../../components/Testimony/Testimony";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <OurServices /> 
       <Training/> 
       <Count />
+      <Certificate/>
+      <Testimony />
     </div>
   )
 }

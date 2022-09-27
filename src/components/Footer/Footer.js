@@ -52,10 +52,10 @@ const Footer = (props) => {
               </div>
               <div className={classes.location}>
                 <img src={Email} alt="/" className={classes.image} />
-                <p>info@gracehandsresearchinstitute.org</p>
+                <p>gracehands123@gmail.com</p>
               </div>
               <div className={classes.location}>
-                <a href="https://www.google.com/maps/place/8+Safebirth+St,+Fadeyi+102215,+Lagos/@6.5278426,3.3646269,17z/data=!3m1!4b1!4m5!3m4!1s0x103b8db24ddf5aa7:0x23d15157e56801de!8m2!3d6.5278373!4d3.3668156">
+                <a href="https://www.google.com/maps/place/New+Market,+Obafemi+Awolowo+University+Ife/@7.5166013,4.5105495,17z/data=!4m9!1m2!2m1!1sOAU+New+Market,+Zone+E,+Block+4.,+Ile-Ife,+Nigeria!3m5!1s0x10383124fac75a11:0x50e159c9e4d9399f!8m2!3d7.5156653!4d4.5129797!15sCjJPQVUgTmV3IE1hcmtldCwgWm9uZSBFLCBCbG9jayA0LiwgSWxlLUlmZSwgTmlnZXJpYZIBEnByaXZhdGVfdW5pdmVyc2l0eeABAA">
                   <img src={Location} alt="/" className={classes.image} />
                   <p>OAU New Market, Zone E, Block 4., Ile-Ife, Nigeria.</p>
                 </a>

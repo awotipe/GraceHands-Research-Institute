@@ -271,20 +271,30 @@
         width: 130px;
         height: 38px;
         font-size: 1rem;
-        margin-bottom: 20px;
+        margin-bottom: 0rem;
     }
 
     .part2{
         margin: auto;
         display: block;
-        align-items: center;
-        padding-top: 1rem;
-        padding-left: 4rem;
+        padding: 1rem 0 0;
+        
     }
 
     .part2 p{
         font-size: 1rem;
     }
 
+    .location{
+        display: block;
+        padding-bottom: 2rem;
+        margin-bottom: 1rem;
+        margin: auto;
+    }
+    
+    .location>p{
+        padding-top: 0rem;
+        padding-left: 0rem;
+    }
 
 }

@@ -26,7 +26,7 @@
     height: 6em;
     padding:2rem 1rem ;
     font-size: 1.2rem;
-    margin-bottom: 2rem;
+    margin: auto;
 }
 
 .location{
@@ -34,6 +34,7 @@
     padding-bottom: 1rem;
     margin-bottom: 1rem;
 }
+
 
 .location>p{
     padding-top: .4rem;

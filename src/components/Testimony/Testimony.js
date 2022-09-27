@@ -1,8 +1,5 @@
 import classes from "./Testimony.module.css";
-import kunle from "../../asset/image-chat.svg";
-// import aisha from "../../asset/testify-center.svg";
-// import tolu from "../../asset/testify-center.svg";
-// import yinka from "../../asset/testify-center.svg";
+import man from "../../asset/image-chat.svg";
 import arrow from "../../asset/arrow-chat.svg";
 import video from "../../asset/video-chat.svg";
 import call from "../../asset/call-chat.svg";
@@ -79,7 +76,7 @@ export default class Testimony extends Component {
                   <img src={arrow} alt="" />
                   </div>
                   <div className={classes.person}>
-                  <img src={kunle} alt="" />
+                  <img src={man} alt="" />
                   </div>
                 </div>
                 <div className={classes.text2}>
@@ -141,7 +138,7 @@ export default class Testimony extends Component {
                   <img src={arrow} alt="" />
                   </div>
                   <div className={classes.person}>
-                  <img src={kunle} alt="" />
+                  <img src={man} alt="" />
                   </div>
                 </div>
                 <div className={classes.text2}>
@@ -193,11 +190,11 @@ export default class Testimony extends Component {
                   <img src={arrow} alt="" />
                   </div>
                   <div className={classes.person}>
-                  <img src={kunle} alt="" />
+                  <img src={man} alt="" />
                   </div>
                 </div>
                 <div className={classes.text2}>
-                  <h3>Joseph</h3>
+                  <h3>Joseph Adewale</h3>
                   <p>Tap here for contact info</p>
                 </div>
                 <div className={classes.image1}>

@@ -12,19 +12,19 @@ const Count = () => {
       <div className={classes.innerContainer}>
         <div className={classes.coursesContainer}>
         <div className={classes.course1}>
-          <img src={Instructors} alt="/" className={classes.footlogo} />
-          <p><span>0 </span>Instructors</p>
+          <img src={Instructors} alt="/" />
+          <p><span>0 </span>Instructor</p>
           </div>
           <div className={classes.course1}>
-          <img src={Trainings} alt="/" className={classes.footlogo} />
+          <img src={Trainings} alt="/" />
           <p><span>348+ </span>Trainings</p>
           </div>
           <div className={classes.course1}>
-          <img src={Students} alt="/" className={classes.footlogo} />
+          <img src={Students} alt="/" />
           <p><span>1,367+ </span>Students</p>
           </div>
           <div className={classes.course1}>
-          <img src={Satisfaction} alt="/" className={classes.footlogo} />
+          <img src={Satisfaction} alt="/" />
           <p><span>99% </span>Satisfaction Rate</p>
           </div>
         </div>

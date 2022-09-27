@@ -20,18 +20,20 @@ const Training = () => {
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="excel"
         />
         <TrainingHome
           bgImg={Analysis}
-          text="Data Analysis + Certificateg"
+          text="Data Analysis + Certificate"
           student={Students}
           lesson={Lessons}
           content="340 Students"
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="SPSS"
         />
         <TrainingHome
           bgImg={Research}
@@ -42,7 +44,8 @@ const Training = () => {
           content2="82 Lessons"
           dollar="$"
           amount="50"
-          buy="Buy"
+          learn="Learn More"
+          where="research"
         />
        </div>
        </div>

@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 import Classes from "./ContactForm.module.css";
 import Logo from "../../asset/send-img.svg";
 import emailjs from '@emailjs/browser';
+
 const Result = () => {
   return (
     <p>Your message has been successfully sent. We will contact you soon.</p>
@@ -13,11 +14,11 @@ const ContactForm = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     
-      emailjs.sendForm("service_ei6kz8m", "template_49kc0ag", form.current, "ZzQ9T60CgoDKkrhzK")
+      emailjs.sendForm("service_2q7z0ir", "template_djygmpd", form.current, "XVxoIvBVfFj1ViNjy")
       .then(
         (result) => {
           console.log(result.text);
-          console.log("Your message has been successfully sent.We will contact you soon.")
+          console.log("Your message has been successfully sent. We will contact you soon.")
         },
         (error) => {
           console.log(error.text);
@@ -49,7 +50,7 @@ const ContactForm = () => {
         </div>
         <div className={Classes.address}>
           <h3>Email</h3>
-          <p>info@gracehandsresearchinstitute.org</p>
+          <p>gracehands123@gmail.com</p>
         </div>
       </div>
       <div className={Classes.ContactForm2}>
@@ -57,11 +58,10 @@ const ContactForm = () => {
           <h2>Drop A Message</h2>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="firstName" placeholder="First Name"></input>
-          <input type="text" name="firstName" placeholder="Last Name"></input>
-          <input type="text"  name="email" placeholder="Email "></input>
-          <input type="text" name="phone" placeholder="Phone "></input>
-          <input type="text" placeholder="Subeject "></input>
+          <input type="text" name="user_Name" placeholder="Full Name"></input>
+          <input type="text"  name="user_Email" placeholder="Email "></input>
+          <input type="text" name="user_Email" placeholder="Phone "></input>
+
          
           <div>
             

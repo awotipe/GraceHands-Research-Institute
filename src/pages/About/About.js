@@ -7,6 +7,8 @@ import Video1 from "../../asset/Excel-training.mp4";
 import Video2 from "../../asset/about-video.mp4";
 import Video3 from "../../asset/research-training.mp4";
 import AboutHero from "../../components/AboutHero/AboutHero";
+import Certificate from "../../components/Certificate/Certificate";
+import Testimony from "../../components/Testimony/Testimony";
 
 const About = () => {
   return (
@@ -52,6 +54,8 @@ const About = () => {
         </div>
       </div>
       </div>
+      <Certificate/>
+      <Testimony />
     </div>
   );
 };
