@@ -6,12 +6,16 @@ import { AiOutlineClose } from "react-icons/ai";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
-
 const Navbar = () => {
-  const [nav, setNav] = useState(false);
-  const handleNav = () => setNav(!nav);
+  const [navOpen, setNavOpen] = useState(false);
 
-  
+  const handleNavToggle = () => {
+    setNavOpen(!navOpen);
+  };
+
+  const handleNavLinkClick = () => {
+    setNavOpen(false);
+  };
 
   return (
     <div className={classes.navbar}>
@@ -22,22 +26,27 @@ const Navbar = () => {
       </div>
       <ul className={classes.navMenu}>
         <li>
-          <Link to="/" className={classes.navlink}>
+          <Link to="/" className={classes.navlink} onClick={handleNavLinkClick}>
             Home
           </Link>
         </li>
         <li>
-          <Link to="/about" className={classes.navlink}>
+          <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
             About Us
           </Link>
         </li>
         <li>
-          <Link to="/trainings" className={classes.navlink}>
+          <Link to="/trainings" className={classes.navlink} onClick={handleNavLinkClick}>
             Trainings
           </Link>
         </li>
         <li>
-          <Link to="/contact" className={classes.navlink}>
+          <Link to="/technology" className={classes.navlink} onClick={handleNavLinkClick}>
+            Technology
+          </Link>
+        </li>
+        <li>
+          <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
             Contact
           </Link>
         </li>
@@ -47,33 +56,37 @@ const Navbar = () => {
         <FaInstagram className={classes.icon} />
         <FaTwitter className={classes.icon} />
       </div>
-      <div className={classes.hamburger} onClick={handleNav}>
-        {!nav ? (
+      <div className={classes.hamburger} onClick={handleNavToggle}>
+        {!navOpen ? (
           <HiOutlineMenuAlt4 className={classes.Icons} />
         ) : (
           <AiOutlineClose className={classes.Icons} />
         )}
-       
       </div>
-      <div className={nav ? classes.active : classes.mobileMenu}>
+      <div className={navOpen ? classes.active : classes.mobileMenu}>
         <ul className={classes.mobileNav}>
           <li>
-            <Link to="/" className={classes.navlink}>
+            <Link to="/" className={classes.navlink} onClick={handleNavLinkClick}>
               Home
             </Link>
           </li>
           <li>
-            <Link to="/about" className={classes.navlink}>
+            <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
               About Us
             </Link>
           </li>
           <li>
-            <Link to="/trainings" className={classes.navlink}>
+            <Link to="/trainings" className={classes.navlink} onClick={handleNavLinkClick}>
               Trainings
             </Link>
           </li>
           <li>
-            <Link to="/contact" className={classes.navlink}>
+            <Link to="/technology" className={classes.navlink} onClick={handleNavLinkClick}>
+              Technology
+            </Link>
+          </li>
+          <li>
+            <Link to="/contact" className={classes.navlink} onClick={handleNavLinkClick}>
               Contact
             </Link>
           </li>
@@ -81,7 +94,7 @@ const Navbar = () => {
         <div className={classes.mobileMenuBottom}>
           <div className={classes.menuIcons}>
             <a href="https://wa.link/iy94j6">
-            <button>Click to chat on whatsapp</button>
+              <button>Click to chat on WhatsApp</button>
             </a>
           </div>
         </div>

@@ -1,18 +1,19 @@
 import React from 'react';
 import classes from './Training.module.css'
+import Navbar from "../../components/Navbar/Navbar";
 import TrainingHero from "../../components/TrainingHero/TrainingHero"
 import Training2 from "../../components/Training1/Training1"
 import Certificate from "../../components/Certificate/Certificate";
 import Analysis from "../../asset/analysis.svg";
 import Research from "../../asset/research-training.svg";
 import Testimony from "../../components/Testimony/Testimony";
-
-
+import Footer from "../../components/TechFooter/Footer";
 
 
 const Training = () => {
   return (
     <div> 
+      <Navbar/>
       <TrainingHero/>
       <Training2 />
       <div className={classes.Container}>
@@ -165,6 +166,7 @@ const Training = () => {
     </div>
       <Certificate/>
       <Testimony/>
+      <Footer/>
     </div>
   )
 }

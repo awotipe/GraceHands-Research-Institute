@@ -14,7 +14,9 @@
     color: black;
     margin: 1rem auto;
     padding-top: .7rem;
+    font-size: 1.2rem;
 }
+
 .servicesimg1{
     border-radius: 24px;
     box-shadow: 0px 2px 48px rgba(0, 0, 0, 0.1);
@@ -38,9 +40,9 @@
     color:  black;
     margin: 0 auto;
     width: 60%;
-    line-height: 1rem ;
+    line-height: 1rem;
     padding-top: 1rem;
-    
+    font-size: 1.2rem;
 }
 
 .servicesimg1:hover p{

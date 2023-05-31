@@ -60,7 +60,7 @@ const ContactForm = () => {
         <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="user_Name" placeholder="Full Name"></input>
           <input type="text"  name="user_Email" placeholder="Email "></input>
-          <input type="text" name="user_Email" placeholder="Phone "></input>
+          <input type="text" name="user_Phone" placeholder="Phone "></input>
 
          
           <div>

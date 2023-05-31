@@ -25,7 +25,9 @@
     text-align: center;
     color: #1E1E1E;
     width: 50%;
+    font-size: 1.2rem;
 }
+
 .viewAll{
     margin: 2rem auto 4rem;
 }

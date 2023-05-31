@@ -7,7 +7,6 @@ const Whatsappchat = () => {
     <div className={Classes.Whatsappchat}>
         <a href="https://wa.link/iy94j6">
         <FaWhatsappSquare className={Classes.icon} />
-        <p>chat </p>
         </a>
     </div>
   )

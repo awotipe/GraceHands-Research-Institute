@@ -6,13 +6,16 @@ import Video from "../../asset/video.svg";
 import Video1 from "../../asset/Excel-training.mp4";
 import Video2 from "../../asset/about-video.mp4";
 import Video3 from "../../asset/research-training.mp4";
+import Navbar from "../../components/Navbar/Navbar";
 import AboutHero from "../../components/AboutHero/AboutHero";
 import Certificate from "../../components/Certificate/Certificate";
 import Testimony from "../../components/Testimony/Testimony";
+import Footer from "../../components/TechFooter/Footer";
 
 const About = () => {
   return (
     <div className={classes.Container}>
+      <Navbar/>
       <AboutHero />
       <div className={classes.innerContainer}>
         <div className={classes.text}>
@@ -56,6 +59,7 @@ const About = () => {
       </div>
       <Certificate/>
       <Testimony />
+      <Footer/>
     </div>
   );
 };

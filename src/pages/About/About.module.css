@@ -17,7 +17,7 @@
 }
 
 .text p{
-    font-size: 1rem;
+    font-size: 1.2rem;
     line-height: 2rem;
 }
 
@@ -30,6 +30,7 @@
 .location>p{
     padding-top: .4rem;
     padding-left: .4rem;
+    font-size: 1.2rem;
 }
 
 .videoContainer{

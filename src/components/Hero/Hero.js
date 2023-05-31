@@ -31,8 +31,8 @@ export default class AutoPlay extends Component {
                 Institute driven with passion to affect lives in the world of
                 data analytics and research.
               </p>
-              <Link to="/training">
-                <button>Our Trainings</button>
+              <Link to="/services">
+                <button>Our Services</button>
               </Link>
             </div>
           </div>
@@ -48,8 +48,8 @@ export default class AutoPlay extends Component {
                 a research work, training of students, plagiarism level or
                 publications of a paper and many more.
               </p>
-              <Link to="/training">
-                <button>Our Trainings</button>
+              <Link to="/services">
+                <button>Our Services</button>
               </Link>
             </div>
           </div>
