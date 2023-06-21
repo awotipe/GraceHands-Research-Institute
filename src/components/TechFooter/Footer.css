@@ -3,6 +3,7 @@
     /* height: 372px; */
     background: #15271A;
     padding-bottom: 3rem;
+    
 }
 .foot{
     width: 90%;
@@ -11,6 +12,7 @@
     display: flex;
     gap: 2rem;
 }
+
 .footlogo{
     margin-left: -12px;
 }
@@ -111,7 +113,7 @@ li{
     cursor: pointer;
 }
 
-#infoo{
+#info{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -169,6 +171,10 @@ li{
         font-size: 16px;
     }
     li{
+        font-size: 14px;
+    }
+
+    #info{
         font-size: 14px;
     }
 }
@@ -275,7 +281,7 @@ li{
     .right-foot{
         width: 80%;
         display: flex;
-        flex-direction: column
+        flex-direction: column;
     }
 
 

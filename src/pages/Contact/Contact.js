@@ -6,7 +6,7 @@ import ContactForm from "../../components/ContactForm/ContactForm"
 import ContactSocials from "../../components/ContactSocials/ContactSocials"
 import Certificate from "../../components/Certificate/Certificate";
 import Testimony from "../../components/Testimony/Testimony";
-import Footer from "../../components/TechFooter/Footer";
+// import Footer from "../../components/Footer/Footer";
 
 const Contact = () => {
   return (
@@ -17,7 +17,7 @@ const Contact = () => {
       <ContactSocials/>
       <Certificate/>
       <Testimony />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

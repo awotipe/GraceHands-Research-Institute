@@ -1,9 +1,11 @@
 import React from "react";
 import classes from "./Excel.module.css";
+import Navbar from "../../components/Navbar/Navbar"
 
 const Excel = () => {
   return (
     <div className={classes.Container}>
+        <Navbar/>
       <div className={classes.innerContainer}>
         <p>Hello, there!</p>
         <p>

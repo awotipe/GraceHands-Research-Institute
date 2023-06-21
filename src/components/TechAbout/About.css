@@ -243,9 +243,10 @@
 @media screen and (max-width: 425px) {
     .inner-a{
         display: flex;
-        flex-direction: column-reverse;
-        margin-left: 8%;
+        flex-direction: column;
+        margin: auto;
     }
+    
     .right-a>img{
         margin-top: -4rem;
         width: 150%;
@@ -253,12 +254,12 @@
     }
     .underlay{
         width: 310px;
-        height: 305px;
+        /* height: 305px; */
         margin-top: 5rem;
     }
     .right-a{
         margin-top: 3rem;
-        margin-bottom: -6rem;
+        margin-bottom: 0rem;
         width: 350px;
     }
     .rectangles{
@@ -271,12 +272,17 @@
         font-size: 24px;
         line-height: 41px;
     }
+
+    .smallAbout{
+        margin-top: 5rem;
+    }
+
     .smallAbout-a{
         width: 340px;
-        font-size: 12px;
+        font-size: 14px;
     }
     .smallAbout-b{
         width: 340px;
-        font-size: 12px;
+        font-size: 14px;
     }
 }

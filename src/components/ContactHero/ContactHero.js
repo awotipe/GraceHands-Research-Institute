@@ -1,6 +1,7 @@
 import React from "react";
 import classes from "./ContactHero.module.css";
 import Logo from "../../asset/contact-hero.svg";
+import {Link} from 'react-router-dom'
 
 // import Email from "../../asset/contact-email.svg";
 // import Whatsapp from "../../asset/contact-whatsapp.svg";
@@ -19,15 +20,15 @@ const ContactHero = () => {
         </p>
         <div className={classes.contentFlex}>
         <div className={classes.content1}>
-            <button className={classes.btn}>
-              {/* <img src={Email} alt="/" /> */}
+          <Link to="/form">
+            <button>
               Send Us Email
             </button>
+            </Link>
         </div>
           <div className={classes.content2}>
             <a href="https://wa.link/iy94j6">
-              <button className={classes.btn1}>
-                {/* <img src={Whatsapp} alt="/" /> */}
+              <button>
                 Whatsapp
               </button>
             </a>

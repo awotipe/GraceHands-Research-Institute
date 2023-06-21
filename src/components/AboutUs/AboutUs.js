@@ -36,7 +36,7 @@ const AboutUs = () => {
             </div>
           </div>
           <div className={classes.btn}>
-          <Link to="/about">
+          <Link to="/aboutedu">
             <button>Learn More</button>
           </Link>
           </div>

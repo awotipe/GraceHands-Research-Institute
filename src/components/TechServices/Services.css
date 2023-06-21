@@ -240,14 +240,14 @@
 }
 @media screen and (max-width: 425px) {
     .innerServ{
-        padding-top: 22rem;
+        padding-top: -22rem;
         padding-left: 1rem;
     }
 
     .head1{
         width: 299px;
         font-size: 20px;
-        margin: -3rem 0;
+        margin: 0;
     }
     .head2{
         font-size: 20px;
@@ -257,12 +257,13 @@
     }
     .head3{
         width: 325px;
-        height: 44px;
+        height: 0px;
         font-size: 12px;
     }
     .innerServ{
         margin-left: 0;
     }
+
     .card1{
         width: 300px;
         height: 300px;
@@ -281,8 +282,8 @@
     }
     .cardText{
         width: 300px;
-        height: 140px;
-        margin-top: 11rem;
+        /* height: 140px; */
+        margin-top: 2rem;
     }
     .cardText-a{
         font-size: 18px;
@@ -312,8 +313,5 @@
 }
 
 @media screen and (max-width: 375px) {
-    .innerServ{
-        padding-top: 22rem;
-        padding-left: 1rem;
-    }
+ 
 }

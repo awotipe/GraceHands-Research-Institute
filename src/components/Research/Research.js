@@ -6,10 +6,12 @@ import Video from "../../asset/researchVid.mp4";
 import ResearchHero from "../../components/ResearchHero/ResearchHero";
 import Certificate from "../../components/Certificate/Certificate";
 import Testimony from "../../components/TestimonyRes/TestimonyRes";
+import Navbar from "../../components/Navbar/Navbar"
 
 const Research = () => {
   return (
     <div className={classes.Container}>
+      <Navbar/>
       <ResearchHero />
       <div className={classes.innerContainer}>
         <div className={classes.content}>

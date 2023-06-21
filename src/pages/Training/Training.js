@@ -7,7 +7,7 @@ import Certificate from "../../components/Certificate/Certificate";
 import Analysis from "../../asset/analysis.svg";
 import Research from "../../asset/research-training.svg";
 import Testimony from "../../components/Testimony/Testimony";
-import Footer from "../../components/TechFooter/Footer";
+import Footer from "../../components/Footer/Footer";
 
 
 const Training = () => {

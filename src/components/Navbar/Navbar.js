@@ -31,7 +31,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
+          <Link to="/aboutedu" className={classes.navlink} onClick={handleNavLinkClick}>
             About Us
           </Link>
         </li>
@@ -71,7 +71,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about" className={classes.navlink} onClick={handleNavLinkClick}>
+            <Link to="/aboutedu" className={classes.navlink} onClick={handleNavLinkClick}>
               About Us
             </Link>
           </li>

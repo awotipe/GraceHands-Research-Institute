@@ -21,12 +21,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="right-a">
-                    {/* <div className="rectangles">
-                        <div className="rect1">Want to build websites for your business?</div>
-                        <div className="rect2">Where can i get relevant tools to Skill up?</div>
-                        <div className="rect3">Where is my one stop for Educational Materials?</div>
-                    </div> */}
-                    <img src={Woman} alt="" />
+                    <img src={Woman} alt="lady" />
                     <div className="underlay"></div>
                 </div>
             </div>

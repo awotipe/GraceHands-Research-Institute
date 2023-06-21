@@ -1,0 +1,8 @@
+.Container{
+    Width: 100%;
+}
+
+.innerContainer{
+    Width: 90%;
+    margin: auto;
+}

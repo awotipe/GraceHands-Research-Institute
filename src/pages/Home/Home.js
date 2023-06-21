@@ -7,7 +7,7 @@ import Training from "../../components/TrainingProps/TrainingProps"
 import Count from "../../components/Count/Count"
 import Certificate from "../../components/Certificate/Certificate";
 import Testimony from "../../components/Testimony/Testimony";
-import Footer from "../../components/TechFooter/Footer";
+// import Footer from "../../components/Footer/Footer";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
       <Count />
       <Certificate/>
       <Testimony />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   )
 }

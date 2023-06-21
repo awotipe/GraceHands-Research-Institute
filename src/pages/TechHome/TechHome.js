@@ -3,7 +3,7 @@ import Header from "../../components/TechHeader/Header";
 import Hero from "../../components/TechHero/Hero";
 import About from "../../components/TechAbout/About";
 import Services from "../../components/TechServices/Services";
-import Footer from "../../components/TechFooter/Footer";
+// import Footer from "../../components/Footer/Footer";
 
 const TechHome = () => {
   return (
@@ -12,7 +12,7 @@ const TechHome = () => {
         <Hero/>
         <About/>
         <Services/>
-        <Footer/>
+        {/* <Footer/> */}
     </div>
   )
 }

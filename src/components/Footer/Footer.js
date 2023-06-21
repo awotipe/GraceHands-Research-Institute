@@ -1,6 +1,6 @@
 import React from "react";
 import classes from "./Footer.module.css";
-import Logo from "../../asset/logo-white.svg";
+import Logo from "../../asset/footlogo.png";
 import Handle1 from "../../asset/FooterFB.svg";
 import Handle2 from "../../asset/FooterIG.svg";
 import Location from "../../asset/location-footer.svg";
@@ -18,10 +18,7 @@ const Footer = (props) => {
               <img src={Logo} alt="/" className={classes.footlogo} />
             </Link>
             <p>
-              We are an institute driven by the passion to affect lives in the
-              world of data analytics and research. We conduct training
-              specifically in these areas. We also analyze data for
-              undergraduates and post-graduate students and major companies
+            We are an Edu-Tech company driven by the passion to affect lives in the world of Education Technology. We have the best skilled professionals for all your works.
             </p>
             <div className={classes.address}>
               <img src={Handle1} alt="/" className={classes.social} />
@@ -36,6 +33,14 @@ const Footer = (props) => {
               <p>Contact</p>
               <p>Terms & Condition</p>
               <p>Private Policy</p>
+            </div>
+            <div className={classes.part2}>
+              <h3>Services</h3>
+              <p>Web Development</p>
+              <p>Graphic Design</p>
+              <p>Content Writing</p>
+              <p>Digital Marketing</p>
+              <p>Video Editing</p>
             </div>
             <div className={classes.part2}>
               <h3>Courses</h3>
@@ -68,7 +73,7 @@ const Footer = (props) => {
 
       <div className={classes.copyright}>
         <div className={classes.copy}>
-          <p>© 2022 Grace Hands Research Institute</p>
+          <p>© 2023 GraceHands Edu-tech Limited Services</p>
         </div>
         <div className={classes.copy2}>
           <div>

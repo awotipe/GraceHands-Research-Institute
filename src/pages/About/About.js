@@ -10,7 +10,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import AboutHero from "../../components/AboutHero/AboutHero";
 import Certificate from "../../components/Certificate/Certificate";
 import Testimony from "../../components/Testimony/Testimony";
-import Footer from "../../components/TechFooter/Footer";
+// import Footer from "../../components/Footer/Footer";
 
 const About = () => {
   return (
@@ -59,7 +59,7 @@ const About = () => {
       </div>
       <Certificate/>
       <Testimony />
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 };

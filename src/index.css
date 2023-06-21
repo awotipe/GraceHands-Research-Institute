@@ -46,17 +46,6 @@ li{
   list-style-type: none;
 }
 
-
-
-/* .slick-slider{
-  height: 100vh;
-}
-.slick-dots
-{
-    position: absolute;
-    top: 90%;
-    z-index: 5;
-} */
 .slick-dots li button:before
 {
   font-size: .7rem !important;

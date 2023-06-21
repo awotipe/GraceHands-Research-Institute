@@ -5,10 +5,12 @@ import Analysis from "../../asset/analysis.svg";
 import Curriculum from "../../asset/spssCurri.jpg";
 import SPSShero from "../../components/SPSShero/SPSShero";
 import Certificate from "../../components/Certificate/Certificate";
+import Navbar from "../../components/Navbar/Navbar"
 
 const SPSS = () => {
   return (
     <div className={classes.Container}>
+       <Navbar/>
         <SPSShero/>
       <div className={classes.innerContainer}>
         <div className={classes.contentBigimg}>

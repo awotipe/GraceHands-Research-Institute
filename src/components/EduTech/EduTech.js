@@ -1,35 +1,61 @@
-import React from 'react'
-import classes from './EduTech.module.css'
-import image from './utils';
+import React from "react";
+import classes from "./EduTech.module.css";
+// import image from './utils';
 import { Link } from "react-router-dom";
 import Navbar from "../../components/EduHeader/EduHeader";
-import Footer from '../../components/TechFooter/Footer';
-
+import image from "../../asset/digital.png";
 
 const EduTech = () => {
   return (
-        <section className={classes.container}>
-          <Navbar/>
-          <div className={classes.innerContainer}>
-          <div className={classes.bgImage}>
-            <div className={classes.textContainer}>
-              <div className={classes.bgTitle}>
-                <h1>Welcome to GraceHands Edu-Tech Limited Services!</h1>
-                <p>Please take a moment to explore our website and learn more about the
-                services  we offer. If you have any questions or would like to schedule a
-                consultation, don't hesitate to contact us. We look forward to working with you!</p>
-                </div>
-              <div className={classes.btn}>
+    <section className={classes.container}>
+      <Navbar />
+      <div className={classes.innerContainer}>
+        <div className={classes.bgImage}>
+          <div className={classes.textContainer}>
+            <div className={classes.bgTitle}>
+              <h1 data-aos="fade-down" data-aos-duration="3000">
+                Welcome to GraceHands Edu-Tech Limited Services!
+              </h1>
+              <p data-aos="fade-up" data-aos-duration="3000">
+                Please take a moment to explore our website and learn more about
+                the services we offer. If you have any questions or would like
+                to schedule a consultation, don't hesitate to contact us. We
+                look forward to working with you!
+              </p>
+            </div>
+            <div className={classes.btn}>
               <Link to="/technology">
                 <button>Technology</button>
-                </Link>
-                <Link to="/education">
+              </Link>
+              <Link to="/education">
                 <button>Education</button>
-                </Link>
-              </div>
+              </Link>
             </div>
           </div>
-          <div className={classes.content}>
+        </div>
+        <div className={classes.textContainer2}>
+          <div className={classes.text}>
+            <h2>About Us</h2>
+            <p>
+              At GraceHands Edutech Limited Services, we are passionate about
+              empowering individuals and businesses through comprehensive and
+              cutting-edge technology education.
+            </p>
+            <p>
+              We are also passionate about
+              providing exceptional tech solutions to help businesses thrive in
+              the digital age. Our comprehensive range of services includes web
+              development, graphic design, digital marketing, video editing, and
+              content writing. We are your one-stop destination for all your
+              technological needs.
+            </p>
+          </div>
+          <div className={classes.imageContainer}>
+            <img src={image} alt="about" />
+          </div>
+        </div>
+
+        {/* <div className={classes.content}>
             <h2>Empowering Students & Learners Through Technology</h2>
           
             <p>
@@ -62,11 +88,10 @@ const EduTech = () => {
               <img src={image.p5} className={classes.view5} alt="p5" />
               <img src={image.p6} className={classes.view6} alt="p6" />
               <img src={image.p7} className={classes.view7} alt="p7" />
-            </div>
-            </div>
-            <Footer/>
-        </section>
-      );
-    }
+            </div> */}
+      </div>
+    </section>
+  );
+};
 
-export default EduTech
+export default EduTech;
