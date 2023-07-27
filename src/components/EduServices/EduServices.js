@@ -61,8 +61,8 @@ export default class EduServices extends Component{
         <div className="innerServ">
             <div className="headServ">
                 <h1 >Our Services </h1>
-                <p>Name the Service, We Offer It!</p>
-                <div className="parag"><p>In our Tech World, we have available for you an array of technological services as well as professionals that can help you with efficient service.</p></div>
+                <h2>Name the Service, We Offer It!</h2>
+                <p>In our Tech World, we have available for you an array of technological services as well as professionals that can help you with efficient service.</p>
             </div>
             <Slider {...settings} className="cardServ">
                 <div className="cards-s">

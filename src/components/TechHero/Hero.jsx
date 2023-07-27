@@ -8,9 +8,8 @@ const Hero = () => {
         {/* <Header/> */}
         <div className="innerHero">
             <div className="text">
-                <div className="bigText">Welcome to GraceHands Tech World!</div>
-                <div className="smallText" data-text="&nbsp;We are thrilled to have you join us in the dynamic and ever-evolving world of technology.&nbsp;">
-                &nbsp;We are thrilled to have you join us in the dynamic and ever-evolving world of technology.&nbsp;</div>
+                <h1>Welcome to GraceHands Tech World!</h1>
+                <p>We are thrilled to have you join us in the dynamic and ever-evolving world of technology.&nbsp;</p>
             </div>
         </div>
     </div>

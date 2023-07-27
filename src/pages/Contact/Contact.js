@@ -1,6 +1,6 @@
 import React from 'react'
 import Classes from "./Contact.module.css"
-import Navbar from "../../components/TechHeader/Header";
+import Navbar from "../../components/EduHeader/EduHeader";
 import ContactHero from "../../components/ContactHero/ContactHero"
 import ContactForm from "../../components/ContactForm/ContactForm"
 import ContactSocials from "../../components/ContactSocials/ContactSocials"

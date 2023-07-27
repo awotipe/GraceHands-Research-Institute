@@ -19,7 +19,7 @@
     padding-bottom: 1rem;
 }
 
-.headServ p{
+.headServ h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -27,7 +27,7 @@
     line-height: 61px;
     color: #15271A;
 }
-.parag p{
+.headServ p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -68,8 +68,8 @@
     box-sizing: border-box;
     position: absolute;
     width: 509px;
-    height: 237px;
-    margin-top: 9rem;
+    height: 337px;
+    /* margin-top: 6rem; */
     display: flex;
     flex-direction: column;
 }
@@ -114,19 +114,6 @@
     .innerServ{
         width: 95%;
         margin: auto;
-        /* margin-left: 2%; */
-    }
-    
-    .head1{
-        width: 299px;
-    }
-    .head2{
-        font-size: 40px;
-    }
-    .head3{
-        width: 825px;
-        height: 44px;
-        font-size: 16px;
     }
 
     .card2{
@@ -161,6 +148,10 @@
     }
 }
 @media screen and (max-width: 768px) { 
+    .innerServ{
+        width: 95%;
+        margin: auto;
+    }
     .card2{
         width: 340px;
         height: 319px;
@@ -192,12 +183,11 @@
     }
 }
 @media screen and (max-width: 425px) {
-    .innerServ{
+    .headServ{
         padding-top: 3rem;
-    }
-
-    .innerServ{
         margin-left: 0;
+        width: 95%;
+        margin: auto;
     }
  
     .card2{

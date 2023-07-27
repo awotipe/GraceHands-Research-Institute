@@ -74,21 +74,18 @@ li{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
     padding-top: 1rem;
     cursor: pointer;
 }
 
-/* li:hover{
-    color: #e9e6e6;
-} */
 .send{
     display: flex;
-    padding-bottom: 0.5rem;
-    padding-top: 0.5rem;
+    padding: 0.5rem .7rem;
 }
+
 .ftlist-dh{
     font-family: 'Inter';
     font-style: normal;
@@ -98,32 +95,17 @@ li{
     color: #FFFFFF;
 }
 
-.ftlist-dh:hover{
-    color: #FFFFFF;
-}
-
-#info{
+.send p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
-    color: #FFFFFF;
-    padding-left: 1rem;
-    cursor: pointer;
-}
-
-#info{
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 19px;
     color: #FFFFFF;
     margin-top: 2rem;
-    padding-left: 2.5rem;
-    padding-bottom: 2rem;
     cursor: pointer;
+    margin-top: 0rem;
+    padding-left: .5rem;
 }
 
 .line2{
@@ -171,11 +153,11 @@ li{
         font-size: 16px;
     }
     li{
-        font-size: 14px;
+        font-size: 12px;
     }
 
-    #info{
-        font-size: 14px;
+    .send p{
+        font-size: 12px;
     }
 }
 @media screen and (max-width: 768px) {
@@ -204,26 +186,15 @@ li{
     }
 
     li{
-        font-size: 8px;
-        width: 150%;
-    }
-
-    .footlist-d{
-        width: 80%;
-        font-size: 8px;
-        padding-left: 2rem;
-    }
-
-    #info{
+        font-size: 10px;
+        /* width: 160%; */
       
-        font-size: 8px;
-        padding-left: 1rem;
-        cursor: pointer;
     }
-    
-    #infoo{
+
+    .send p{
         font-size: 10px;
     }
+
 
     .ftlist-dh{
         font-size: 12px;
@@ -232,11 +203,20 @@ li{
     .send>img{
         width: 7%;
     }
+
+    .copy p{
+        font-size: 12px;
+    }
+
+    .copy2 p{
+        font-size: 12px;
+    }
 }
 @media screen and (max-width: 425px) {
     .footer{
         width: 100%;
     }
+
     .foot{
         display: flex;
         flex-direction: column;
@@ -255,7 +235,7 @@ li{
         color: #FFFFFF;
     }
 
-    #info{
+    /* #info{
       
         font-size: 16px;
         padding-left: 1rem;
@@ -264,7 +244,7 @@ li{
     
     #infoo{
         font-size: 10px;
-    }
+    } */
 
     .ftlist-h{
         font-size: 18px;

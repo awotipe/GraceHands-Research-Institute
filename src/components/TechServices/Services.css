@@ -1,27 +1,30 @@
+.services{
+    margin-bottom: 4rem;
+}
+
 .innerServ{
     width: 90%;
-    /* margin-left: 5%; */
-    padding-bottom: 4rem;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
     margin: auto;
 }
+
 .headServ{
     display: flex;
     flex-direction: column;
 }
-.head1{
-    width: 199px;
-    height: 37px;
+
+.headServ h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
     color: #15271A;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
-.head2{
-    width: 805px;
-    height: 61px;
+
+.headServ h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
@@ -29,9 +32,7 @@
     line-height: 61px;
     color: #15271A;
 }
-.head3{
-    width: 925px;
-    height: 44px;
+.headServ p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -41,6 +42,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
 }
+
 .cardServ{
     width: 95%;
     padding-top: 2rem;
@@ -49,41 +51,50 @@
     gap: 40px;
     filter: drop-shadow(4px 4px 89px rgba(0, 0, 0, 0.25));
 }
+
 .card1{
     width: 509px;
     height: 329px;
     border-radius: 18px;
     background: url("../../asset/web.png");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .card2{
     width: 509px;
     height: 329px;
     border-radius: 18px;
     background: url("../../asset/graphics.png");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .card3{
     width: 509px;
     height: 329px;
     border-radius: 18px;
     background: url("../../asset/video.png");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .card4{
     width: 509px;
     height: 329px;
     border-radius: 18px;
     background: url("../../asset/content.png");
-    
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .card5{
     width: 509px;
     height: 329px;
     border-radius: 18px;
-    background: url("../../asset/digital.png");
-    
+    background: url("../../asset/bgg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .cardText{
@@ -92,26 +103,26 @@
     box-sizing: border-box;
     position: absolute;
     width: 509px;
-    height: 137px;
-    margin-top: 12rem;
+    /* height: 128px; */
+    /* margin-top: 11rem; */
     display: flex;
     flex-direction: column;
 }
-.cardText-a{
+.cardText p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 22px;
     line-height: 27px;
     color: #FFFFFF;
-    padding-left: 30px;
+    padding-left: 15px;
     padding-top: 10px;
 }
 .cardTextb{
     display: flex;
     padding-left: 2rem;
 }
-.cardText-bb{
+.cardTextb p{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -120,7 +131,7 @@
     color: #FFFFFF;
     padding-top: 1.5rem;
     width: 438px;
-    height: 66px;
+    /* height: 66px; */
     padding-left: 2rem;
 }
 .bullet{
@@ -137,20 +148,19 @@
     .innerServ{
         width: 95%;
         margin: auto;
-        /* margin-left: 2%; */
     }
     
-    .head1{
+    .headServ h1{
         width: 299px;
     }
-    .head2{
+    .headServ p{
         font-size: 40px;
     }
-    .head3{
+    .parag p{
         width: 825px;
-        height: 44px;
         font-size: 16px;
     }
+
     .card1{
         width: 430px;
         height: 319px;
@@ -167,19 +177,23 @@
         width: 430px;
         height: 319px;
     }
+    .card5{
+        width: 430px;
+        height: 319px;
+    }
     .cardText{
         width: 430px;
-        height: 140px;
-        margin-top: 11rem;
+        height: 120px;
+        margin-top: 13rem;
     }
-    .cardText-a{
+    .cardText p{
         font-size: 20px;
     }
     .cardTextb{
         display: flex;
         padding-left: 2rem;
     }
-    .cardText-bb{
+    .cardTextb p{
         font-size: 15px;
         padding-top: 1.5rem;
         width: 450px;
@@ -188,17 +202,15 @@
     }
 }
 @media screen and (max-width: 768px) {
-    .head1{
+    .headServ h1{
         width: 299px;
         font-size: 25px;
     }
-    .head2{
+    .headServ p{
         font-size: 30px;
-        width: 505px;
     }
-    .head3{
+    .parag p{
         width: 675px;
-        height: 44px;
         font-size: 13px;
     }
     .card1{
@@ -217,10 +229,14 @@
         width: 340px;
         height: 319px;
     }
+    .card5{
+        width: 340px;
+        height: 319px;
+    }
     .cardText{
         width: 340px;
-        height: 140px;
-        margin-top: 11rem;
+        height: 128px;
+        margin-top: 12rem;
     }
     .cardText-a{
         font-size: 18px;
@@ -240,28 +256,26 @@
 }
 @media screen and (max-width: 425px) {
     .innerServ{
-        padding-top: -22rem;
-        padding-left: 1rem;
+        padding-top: 3rem;
+        margin-left: 0;
     }
-
-    .head1{
+    
+    .headServ h1{
         width: 299px;
         font-size: 20px;
         margin: 0;
     }
-    .head2{
+    .headServ p{
         font-size: 20px;
         width: 325px;
         word-spacing: -0.5px;
         margin-bottom: -1rem;
     }
-    .head3{
+    .parag p{
         width: 325px;
         height: 0px;
         font-size: 12px;
-    }
-    .innerServ{
-        margin-left: 0;
+        padding-bottom: 3rem;
     }
 
     .card1{
@@ -280,10 +294,15 @@
         width: 300px;
         height: 300px;
     }
+
+    .card4{
+        width: 300px;
+        height: 300px;
+    }
     .cardText{
         width: 300px;
-        /* height: 140px; */
-        margin-top: 2rem;
+        height: 140px;
+        margin-top: 12rem;
     }
     .cardText-a{
         font-size: 18px;

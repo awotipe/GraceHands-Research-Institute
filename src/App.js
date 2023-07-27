@@ -12,7 +12,7 @@ import Trainings from "./pages/Training/Training";
 import Contact from "./pages/Contact/Contact";
 import Tech from "./pages/TechHome/TechHome";
 import Whatsappchat from "./components/Whatsappchat/Whatsappchat";
-import Footer from "./components/Footer/Footer";
+import Footer from "./components/TechFooter/Footer";
 import EduAbout from "./components/EduAbout/EduAbout";
 
 const Wrapper = ({children}) => {

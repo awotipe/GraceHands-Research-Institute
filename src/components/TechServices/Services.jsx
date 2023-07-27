@@ -10,8 +10,8 @@ export default class Services extends Component{
             slidesToShow: 2,
             slidesToScroll: 3,
             autoplay: true,
-            speed: 4000,
-            autoplaySpeed: 5000,
+            speed: 7000,
+            autoplaySpeed: 7000,
             cssEase: "linear",
           
 
@@ -59,23 +59,21 @@ export default class Services extends Component{
   return (
     <div className="services">
         <div className="innerServ">
-            <div className="headServ">
-                <span className="head1">Our Services </span>
-                <span className="head2">Name the Service, We Offer It!</span>
-                <span className="head3">In our Tech World, we have available for you an array of technological services as well as professionals that can help you with efficient service.</span>
+        <div className="headServ">
+                <h1 >Our Services </h1>
+                <h2>Name the Service, We Offer It!</h2>
+                <p>In our Tech World, we have available for you an array of technological services as well as professionals that can help you with efficient service.</p>
             </div>
             <Slider {...settings} className="cardServ">
                 <div className="cards-s">
                     <div className="card1">
                         <div className="cardText">
-                            <span className="cardText-a">
-                            Web Development
-                            </span>
+                             <p>Web Development</p>
                             <div className="cardTextb">
                                 <div className="bullet"></div>
-                                <span className="cardText-bb">
+                               <p>
                                 GraceHands is a web development company that specializes in creating high-quality, custom websites for businesses of all sizes. 
-                                </span>
+                               </p>
                             </div>
                         </div>
                     </div>
@@ -83,14 +81,10 @@ export default class Services extends Component{
                 <div className="cards-s">
                     <div className="card2">
                         <div className="cardText">
-                            <span className="cardText-a">
-                            Graphics Design
-                            </span>
+                            <p>Graphics Design</p>
                             <div className="cardTextb">
                                 <div className="bullet"></div>
-                                <span className="cardText-bb">
-                                GraceHands Graphic Design is a creative design studio that specializes in providing a wide range of graphic design services. 
-                                </span>
+                                <p>GraceHands Graphic Design is a creative design studio that specializes in providing a wide range of graphic design services.</p>
                             </div>
                         </div>
                     </div>
@@ -98,14 +92,10 @@ export default class Services extends Component{
                 <div className="cards-s">
                     <div className="card3">
                         <div className="cardText">
-                            <span className="cardText-a">
-                            Video Editing
-                            </span>
+                            <p>Video Editing</p>
                             <div className="cardTextb">
                                 <div className="bullet"></div>
-                                <span className="cardText-bb">
-                                GraceHands is a professional video editing service that provides high-quality video editing services to clients.
-                                </span>
+                                <p>GraceHands is a professional video editing service that provides high-quality video editing services to clients.</p>
                             </div>
                         </div>
                     </div>
@@ -113,14 +103,10 @@ export default class Services extends Component{
                 <div className="cards-s">
                     <div className="card5">
                         <div className="cardText">
-                            <span className="cardText-a">
-                            Digital Marketing
-                            </span>
+                          <p>Digital Marketing</p>
                             <div className="cardTextb">
                                 <div className="bullet"></div>
-                                <span className="cardText-bb">
-                                GraceHands is a leading digital marketing company that can help businesses of all sizes achieve their marketing goals.  
-                                </span>
+                                <p>GraceHands is a leading digital marketing company that can help businesses of all sizes achieve their marketing goals.</p>
                             </div>
                         </div>
                     </div>
@@ -128,14 +114,10 @@ export default class Services extends Component{
                 <div className="cards-s">
                     <div className="card4">
                         <div className="cardText">
-                            <span className="cardText-a">
-                            Content Writing
-                            </span>
+                            <p>Content Writing</p>
                             <div className="cardTextb">
                                 <div className="bullet"></div>
-                                <span className="cardText-bb">
-                                GraceHands is a talented content writer who has built a reputation for delivering high-quality content across a range of topics and industries. 
-                                </span>
+                                <p>GraceHands is a talented content writer who has built a reputation for delivering high-quality content across a range of topics and industries.</p>
                             </div>
                         </div>
                     </div>
